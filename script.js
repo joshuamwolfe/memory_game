@@ -73,9 +73,7 @@ function handleCardClick(e) {
 	// create a loop to loop through all the divs
 	// access the classlist of the currently clicked div
 	const curDiv = e.target;
-	const curDivColor = e.target.classList;
-	curDiv.classList.toggle(curDivColor);
-	console.log(curDivColor);
+	const curDivColor = e.target.classList.Name;
 }
 
 // when the DOM loads
